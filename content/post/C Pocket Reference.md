@@ -38,8 +38,7 @@ At the highest level, a C++ program is composed of one or more *source files* th
 
 C++ source files frequently import, or *include,* additional source code from *header files*. The C++ preprocessor is responsible for including code from these files before each file is compiled. At the same time, the preprocessor can also perform various other operations through the use of *preprocessor directives.* 
 
-<div class="note">       
-    **NOTE!**: A source file after preprocessing has been completed is called a *translation unit.*
-</div>
-
+{{% alert note %}}
+**Note!** A source file after preprocessing has been completed is called a *translation unit.*
+{{% /alert %}}
 
